@@ -5,3 +5,8 @@
 * {
   scroll-behavior: smooth;
 }
+.linkedin:hover{
+  -webkit-box-shadow:0px 0px 73px 20px rgba(0,118,181,0.9);
+-moz-box-shadow: 0px 0px 73px 20px rgba(0,118,181,0.9);
+box-shadow: 0px 0px 73px 20px rgba(0,118,181,0.9);
+}
