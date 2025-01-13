@@ -23,13 +23,13 @@ const Footer = () => {
         </li>
         <li className="flex gap-1 items-center">
           <CiLinkedin />
-          <a href="https://www.linkedin.com/in/karthick-a-6b2232294/">
+          <a href="https://www.linkedin.com/in/karthick-a-6b2232294/" target="_blank">
           <button>www.linkedin.com/in/karthick-a-6b2232294</button>
           </a>
         </li>
         <li className="flex gap-1 items-center">
           <FaGithub />
-          <a href="https://github.com/Karthick-Anbu12">
+          <a href="https://github.com/Karthick-Anbu12" target="_blank">
           github.com/Karthick-Anbu12
           </a>
         </li>
