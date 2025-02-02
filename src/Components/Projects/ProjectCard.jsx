@@ -1,15 +1,15 @@
 import React from "react";
 
-const ProjectCard = ({ title, main,demo,code,frontend,backend ,img }) => {
+const ProjectCard = ({ title, desc,demo,code,frontend,backend ,img }) => {
   return (
     <div className="p-3 md:p-6 flex flex-col w-80 bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl">
-      <a href="https://my-shopping-web-site.netlify.app/" target="_blank">
+      <a href={demo} target="_blank">
       <img className="p-4 h-48  " src={img} alt="" />
       </a>
       <h3 className="px-4  text-xl md:text-2xl font-bold leading-normal">
         {title}
       </h3>
-      <p className="px-4 text-sm md:text-md leading-tight py-2">{main}</p>
+      <p className="px-4 text-sm md:text-md leading-tight py-2">{desc}</p>
       <div className="px-4 flex">
         <div className="mr-8">
           {frontend.split(',').map((ele)=>{

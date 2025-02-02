@@ -10,7 +10,7 @@ const Projects = () => {
       <div className="py-5 px-2 flex flex-wrap gap-5">
         <ProjectCard
           title="E-Commerce Site"
-          main="Shoppers can purchase products from anywhere, at any time, without the need to visit a physical store. 
+          desc="Shoppers can purchase products from anywhere, at any time, without the need to visit a physical store. 
           Variety: Access to a wide range of products and brands, often more than what's available in local stores."
           demo="https://my-shopping-web-site.netlify.app"
           code="https://github.com/Karthick-Anbu12/E-Commerce-frontend"
@@ -20,7 +20,7 @@ const Projects = () => {
         />
   <ProjectCard
           title="My Todos"
-          main="A CRUD todos project typically refers to a task management or to-do list application. 
+          desc="A CRUD todos project typically refers to a task management or to-do list application. 
           It allows users to create, organize, and track tasks they need to complete. Features often include adding,
            deleting, and marking tasks as completed."
           demo="https://todo-crud-full-stack.netlify.app/"
