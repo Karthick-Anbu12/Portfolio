@@ -9,9 +9,9 @@ const About = () => {
     >
       <div>
         <h2 className="text-2xl mt-1 md:text-4xl font-bold">Experience</h2>
-        <div className="md:flex flex-wrap flex-col md:flex-row items-center">
+        <div className="md:flex flex-wrap flex-col md:flex-row items-center ">
           <a href="https://nielseniq.com/global/en/" target="_blank">
-          <img className="md:h-80 p-2" src={AboutImg} alt="About img"  />
+          <img className="md:h-80 sm:h-60 p-2 " src={AboutImg} alt="About img"  />
           </a>
           <ul>
             <div className="flex gap-3 py-4">

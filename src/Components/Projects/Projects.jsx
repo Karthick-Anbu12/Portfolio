@@ -1,5 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
+import ecommerce from "../../assets/webpage.png";
+import todo from "../../assets/Screenshot (5).png"
 
 const Projects = () => {
   return (
@@ -12,8 +14,21 @@ const Projects = () => {
           Variety: Access to a wide range of products and brands, often more than what's available in local stores."
           demo="https://my-shopping-web-site.netlify.app"
           code="https://github.com/Karthick-Anbu12/E-Commerce-frontend"
+          frontend="HTML,CSS,Bootstrap,Contextapi"
+          backend="JavaScript,NodeJs,MongooDB,Payment Gateway"
+          img={ecommerce}
         />
-
+  <ProjectCard
+          title="My Todos"
+          main="A CRUD todos project typically refers to a task management or to-do list application. 
+          It allows users to create, organize, and track tasks they need to complete. Features often include adding,
+           deleting, and marking tasks as completed."
+          demo="https://todo-crud-full-stack.netlify.app/"
+          code="https://github.com/Karthick-Anbu12/Todo-Frontend"
+          frontend="HTML,CSS,TailwindCSS,Contextapi"
+          backend="JavaScript,NodeJs,Mongoose,JWT"
+          img={todo}
+        />
       </div>
     </div>
   );
