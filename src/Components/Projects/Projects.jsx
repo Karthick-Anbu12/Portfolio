@@ -2,6 +2,7 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import ecommerce from "../../assets/webpage.png";
 import todo from "../../assets/Screenshot (5).png"
+import recipe from "../../assets/recipeapp.png"
 
 const Projects = () => {
   return (
@@ -18,7 +19,18 @@ const Projects = () => {
           backend="JavaScript,NodeJs,MongooDB,Payment Gateway"
           img={ecommerce}
         />
-  <ProjectCard
+        <ProjectCard
+          title="My Recipe Book"
+          desc="The Recipe Book website is an online platform where users can store, manage their favorite recipes. 
+          It offers a secure login feature, allowing users to create personal accounts, save their favorite recipes. The website provides
+           easy access to detailed cooking instructions, ingredients, and preparation steps. "
+          demo="https://recipe-application-mern.netlify.app/"
+          code="https://github.com/Karthick-Anbu12/Recipe-frontend"
+          frontend="HTML,CSS,Bootstrap,Axios"
+          backend="JavaScript,NodeJs,MongoDB,JWT"
+          img={recipe}
+        />
+        <ProjectCard
           title="My Todos"
           desc="A CRUD todos project typically refers to a task management or to-do list application. 
           It allows users to create, organize, and track tasks they need to complete. Features often include adding,
@@ -29,6 +41,7 @@ const Projects = () => {
           backend="JavaScript,NodeJs,Mongoose,JWT"
           img={todo}
         />
+
       </div>
     </div>
   );
